@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarShare - Каршеринг</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="Логотип CarShare" />
+      </div>
+      <h1>CarShare</h1>
+      <button
+        class="login-button"
+        onclick="window.location.href='registration.html'"
+      >
+        Войти в аккаунт
+      </button>
+    </header>
+
+    <main>
+      <section class="welcome-section">
+        <h2>Добро пожаловать в CarShare!</h2>
+        <p>
+          Мы предлагаем удобный и доступный каршеринг для всех. Выбирайте
+          автомобиль, который подходит именно вам, и наслаждайтесь свободой
+          передвижения.
+        </p>
+      </section>
+
+      <div class="search">
+        <img src="img/img-glass.png" class="img-glass" />
+        <input type="text" required />
+      </div>
+
+      <section class="car-list">
+        <div class="car-item">
+          <h3 class="name-car">Volkswagen Golf</h3>
+          <div class="img-car">
+            <img
+              src="img/img-Volkswagen_Golf.png"
+              class="img-Volkswagen_Golf"
+            />
+          </div>
+          <p>Компактный и экономичный автомобиль для городских поездок.</p>
+          <p><strong>Цена:</strong> 300 руб/час</p>
+        </div>
+
+        <div class="car-item">
+          <h3 class="name-car">Toyota Camry</h3>
+          <div class="img-car">
+            <img src="img/img-Toyota_Camry.png" class="img-Toyota_Camry" />
+          </div>
+          <p>Комфортный седан для деловых поездок и семейных путешествий.</p>
+          <p><strong>Цена:</strong> 500 руб/час</p>
+        </div>
+
+        <div class="car-item">
+          <h3 class="name-car">Renault Duster</h3>
+          <div class="img-car">
+            <img src="img/img-Renault_Duster.png" class="img-Renault_Duster" />
+          </div>
+          <p>Внедорожник для активного отдыха и поездок за город.</p>
+          <p><strong>Цена:</strong> 400 руб/час</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Каршеринг. Все права защищены.</p>
+    </footer>
+  </body>
+</html>

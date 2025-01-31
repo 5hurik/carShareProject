@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация CarShare</title>
+    <link rel="stylesheet" href="style-reg.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="Логотип компании" />
+      </div>
+      <h1>CarShare - Каршеринг</h1>
+      <button class="login-button" onclick="window.location.href='index.html'">
+        Назад
+      </button>
+    </header>
+
+    <main>
+      <div class="registration-form">
+        <h2>Войти в аккаунт</h2>
+        <form id="registration-form">
+          <label for="fullname">ФИО:</label>
+          <input type="text" id="fullname" name="fullname" required />
+
+          <label for="license-number">Номер водительского удостоверения:</label>
+          <input
+            type="text"
+            id="license-number"
+            name="license-number"
+            required
+          />
+
+          <button type="button" id="register-button">Зарегистрироваться</button>
+          <button type="button" id="login-button">Войти</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Каршеринг. Все права защищены.</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
