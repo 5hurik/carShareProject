@@ -1,0 +1,53 @@
+p {
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  color: orange;
+}
+
+.table td {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Arial", sans-serif;
+}
+
+.p__example {
+  font-size: 25px;
+  width: 300px;
+}
+
+.Text__left {
+  text-align: left;
+}
+
+.Text__right {
+  text-align: right;
+}
+
+.Text__center {
+  text-align: center;
+}
+
+.Text__justify {
+  text-align: justify;
+  width: 300px;
+}
+
+.Border__position__text {
+  width: 300px;
+}
+
+.Border__position__text th {
+  text-align: left;
+}

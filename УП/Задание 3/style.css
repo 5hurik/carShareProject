@@ -1,0 +1,31 @@
+ul li i {
+  color: red;
+}
+
+p i {
+  color: green;
+}
+
+.task__2 p b i {
+  color: red;
+}
+
+.task__3 > b {
+  color: red;
+}
+
+.odd {
+  color: red;
+}
+
+.eve {
+  color: green;
+}
+
+.eee {
+  color: red;
+}
+
+.xxx {
+  font-size: 30px;
+}

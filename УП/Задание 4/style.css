@@ -1,0 +1,53 @@
+p.success {
+  font-size: 30px;
+  color: red;
+}
+p.error {
+  font-size: 20px;
+  color: green;
+}
+p.large {
+  font-size: 30px;
+  color: red;
+}
+p.small {
+  font-size: 20px;
+  color: green;
+}
+
+#block1 {
+  color: red;
+}
+#block2 {
+  color: green;
+}
+
+#elem1 {
+  color: red;
+}
+#elem2 {
+  color: green;
+}
+#elem3 {
+  color: blue;
+}
+
+#block {
+  color: seagreen;
+}
+.text {
+  font-size: 30px;
+  font-style: italic;
+}
+
+#elem h2 {
+  color: aqua;
+}
+
+#elem .text {
+  color: darkgreen;
+}
+
+#elem_0 ul li.text_0 {
+  color: red;
+}

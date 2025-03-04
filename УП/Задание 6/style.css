@@ -1,0 +1,98 @@
+.parent {
+  text-align: right;
+  padding: 10px 0;
+  border: 1px solid red;
+}
+.child {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid green;
+}
+.parent1 {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
+.child1 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
+.parent2 {
+  display: flex;
+  width: 300px;
+  border: 1px solid red;
+}
+.child2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
+#parent3 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+
+  width: 500px;
+  height: 300px;
+  border: 1px solid red;
+}
+#child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 200px;
+  height: 200px;
+  border: 1px solid green;
+}
+#parentQ {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+
+  width: 500px;
+  height: 300px;
+  border: 1px solid red;
+}
+#childQ {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 200px;
+  height: 200px;
+  border: 1px solid green;
+}
+#elem1 {
+  width: 200px;
+  height: 150px;
+  border: 1px solid red;
+}
+#elem2 {
+  position: absolute;
+  top: 100px;
+
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  border: 1px solid green;
+}
+#elem3 {
+  width: 50px;
+  height: 150px;
+  border: 1px solid blue;
+}
+
+div {
+  width: 400px;
+  border: 1px solid red;
+  text-align: justify;
+}
+p {
+  margin-left: 30px;
+}
+img {
+  float: left;
+}

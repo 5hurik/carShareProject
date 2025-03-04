@@ -1,0 +1,42 @@
+h1 {
+  text-align: right;
+}
+
+h2 {
+  width: 300px;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+
+table {
+  width: 500px;
+}
+
+th {
+  text-align: left;
+}
+
+p {
+  width: 300px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.table__task1 {
+  width: 500px;
+  height: 300px;
+}
+
+.table__task1 td {
+  font-weight: bold;
+  text-align: center;
+}
+
+.table__task1 th {
+  font-weight: normal;
+}
+
+.p__style {
+  font-style: italic;
+}

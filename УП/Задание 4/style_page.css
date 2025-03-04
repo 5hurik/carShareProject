@@ -1,0 +1,46 @@
+#block .bbb {
+  color: green;
+  font-size: 30px;
+  font-style: italic;
+}
+
+#block1 p.bbb1,
+#block1 p.xxx {
+  color: green;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.fff h2.bbb2 {
+  color: green;
+  font-size: 30px;
+  font-style: italic;
+}
+
+#elem + li {
+  color: red;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.elem1 + li {
+  color: red;
+  font-size: 30px;
+  font-style: italic;
+}
+
+main * p {
+  color: red;
+  font-size: 30px;
+  font-style: italic;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a :hover {
+  text-decoration: line-through;
+  color: red;
+}
